@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="src/style.css">
     <link rel="stylesheet" href="src/class.css">
-    <script src="src/script.js"></script>
+    <script src="src/script.js" async></script>    
 </head>
 <body>
     <nav class="sticky top-0 z-2 bg-blue">
@@ -265,17 +265,21 @@
                     <h2>Apoiadores</h2>
                 </div>
     
-                <div class="flex justify-between items-center gap-6">
-                    <div>
+                <div id="slider-container1" class="flex justify-between items-center gap-6">
+                    <div class="prevSlide">
                         <img src="src/assets/icons/arrow-circle-left.svg" alt="Icone">
                     </div>
-                    <div class="slides flex gap-6 overflow-hidden">
-                        <div class="block aspect-1-1 bg-dark-gray people-pic"></div>
-                        <div class="block aspect-1-1 bg-dark-gray people-pic"></div>
-                        <div class="block aspect-1-1 bg-dark-gray people-pic"></div>
-                        <div class="block aspect-1-1 bg-dark-gray people-pic"></div>
+                    <div class="flex gap-6 overflow-hidden">
+                        <div class="slide block aspect-1-1 bg-dark-gray people-pic">1</div>
+                        <div class="slide block aspect-1-1 bg-dark-gray people-pic">2</div>
+                        <div class="slide block aspect-1-1 bg-dark-gray people-pic">3</div>
+                        <div class="slide block aspect-1-1 bg-dark-gray people-pic">4</div>
+                        <div class="slide block aspect-1-1 bg-dark-gray people-pic">5</div>
+                        <div class="slide block aspect-1-1 bg-dark-gray people-pic">6</div>
+                        <div class="slide block aspect-1-1 bg-dark-gray people-pic">7</div>
+                        <div class="slide block aspect-1-1 bg-dark-gray people-pic">8</div>
                     </div>
-                    <div>
+                    <div class="nextSlide">
                         <img src="src/assets/icons/arrow-circle-right.svg" alt="">
                     </div>
                 </div>
@@ -288,17 +292,21 @@
                     <h2>Patrocinadores</h2>
                 </div>
     
-                <div class="flex justify-between items-center gap-6">
-                    <div>
+                <div id="slider-container2" class="flex justify-between items-center gap-6">
+                    <div class="prevSlide">
                         <img src="src/assets/icons/arrow-circle-left.svg" alt="Icone">
                     </div>
-                    <div class="slides flex gap-6 overflow-hidden">
-                        <div class="block aspect-1-1 bg-dark-gray people-pic"></div>
-                        <div class="block aspect-1-1 bg-dark-gray people-pic"></div>
-                        <div class="block aspect-1-1 bg-dark-gray people-pic"></div>
-                        <div class="block aspect-1-1 bg-dark-gray people-pic"></div>
+                    <div class="flex gap-6 overflow-hidden">
+                        <div class="slide block aspect-1-1 bg-dark-gray people-pic">1</div>
+                        <div class="slide block aspect-1-1 bg-dark-gray people-pic">2</div>
+                        <div class="slide block aspect-1-1 bg-dark-gray people-pic">3</div>
+                        <div class="slide block aspect-1-1 bg-dark-gray people-pic">4</div>
+                        <div class="slide block aspect-1-1 bg-dark-gray people-pic">5</div>
+                        <div class="slide block aspect-1-1 bg-dark-gray people-pic">6</div>
+                        <div class="slide block aspect-1-1 bg-dark-gray people-pic">7</div>
+                        <div class="slide block aspect-1-1 bg-dark-gray people-pic">8</div>
                     </div>
-                    <div>
+                    <div class="nextSlide">
                         <img src="src/assets/icons/arrow-circle-right.svg" alt="">
                     </div>
                 </div>
@@ -310,6 +318,6 @@
         <div class="container mx-auto p-12 flex justify-center align-center">
             <span class="text-white">Todos os direitos reservados © 2023.</span>
         </div>
-    </footer>
+    </footer>        
 </body>
 </html>
