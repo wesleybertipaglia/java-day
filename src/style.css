@@ -21,7 +21,6 @@ body {
     color: var(--zinc);
     scrollbar-width: none;
     overflow-x: hidden;
-    scr
 }
 
 .container { max-width: 1400px; }
