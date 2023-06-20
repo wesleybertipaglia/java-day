@@ -42,10 +42,8 @@ function createSlider(containerSelector, prevButtonSelector, nextButtonSelector,
     return displaySlides;
 }
 
-const displaySlides1 = createSlider('#slider-apoiadores', '.prevSlide', '.nextSlide', '.slide');
-const displaySlides2 = createSlider('#slider-patrocinadores', '.prevSlide', '.nextSlide', '.slide');
+const displaySlides1 = createSlider('#slider-patrocinadores', '.prevSlide', '.nextSlide', '.slide');
 displaySlides1();
-displaySlides2();
 
 let menu = document.querySelector('.mobile-menu');
 let navList = document.querySelector('.nav-list');

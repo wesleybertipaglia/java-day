@@ -1,5 +1,5 @@
 /* layout */
-.display-none { display: none; }
+.none { display: none; }
 .block { display: block; }
 .inline { display: inline; }
 .inline-block { display: inline-block; }
