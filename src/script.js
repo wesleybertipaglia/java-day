@@ -44,7 +44,5 @@ function createSlider(containerSelector, prevButtonSelector, nextButtonSelector,
 
 const displaySlides1 = createSlider('#slider-apoiadores', '.prevSlide', '.nextSlide', '.slide');
 const displaySlides2 = createSlider('#slider-patrocinadores', '.prevSlide', '.nextSlide', '.slide');
-const displaySlides3 = createSlider('#slider-palestrantes', '.prevSlide', '.nextSlide', '.card');
 displaySlides1();
 displaySlides2();
-displaySlides3();
