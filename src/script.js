@@ -16,7 +16,7 @@ function createSlider(containerSelector, prevButtonSelector, nextButtonSelector,
     });
 
     for (let i = 0; i < 4; i++) {
-        slides[i].style.display = 'flex';
+        slides[i].style.display = 'block';
     }
 
     function displaySlides() {
@@ -24,16 +24,27 @@ function createSlider(containerSelector, prevButtonSelector, nextButtonSelector,
             slides[i].style.display = 'none';
         }
 
-        for (let i = currentSlide; i < currentSlide + 4; i++) {
-            const index = i % slides.length;
-            slides[index].style.display = 'flex';
+        for (let i = 0; i < 4; i++) {
+            const index = currentSlide + i;
+            slides[index].style.display = 'block';
+        }
+
+        if (currentSlide + 3 >= slides.length - 1) {
+            let diff = slides.length - currentSlide + 1
+            for (let i = 0; i <= diff; i++) {
+                const index = currentSlide + i;
+                slides[index].style.display = 'block';
+            }
+            // displaySlides()
         }
     }
 
     return displaySlides;
 }
 
-const displaySlides1 = createSlider('#slider-container1', '.prevSlide', '.nextSlide', '.slide');
-const displaySlides2 = createSlider('#slider-container2', '.prevSlide', '.nextSlide', '.slide');
+const displaySlides1 = createSlider('#slider-apoiadores', '.prevSlide', '.nextSlide', '.slide');
+const displaySlides2 = createSlider('#slider-patrocinadores', '.prevSlide', '.nextSlide', '.slide');
+const displaySlides3 = createSlider('#slider-palestrantes', '.prevSlide', '.nextSlide', '.card');
 displaySlides1();
 displaySlides2();
+displaySlides3();
