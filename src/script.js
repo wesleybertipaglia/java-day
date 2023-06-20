@@ -46,3 +46,16 @@ const displaySlides1 = createSlider('#slider-apoiadores', '.prevSlide', '.nextSl
 const displaySlides2 = createSlider('#slider-patrocinadores', '.prevSlide', '.nextSlide', '.slide');
 displaySlides1();
 displaySlides2();
+
+let menu = document.querySelector('.mobile-menu');
+let navList = document.querySelector('.nav-list');
+let navItem = document.querySelectorAll('.nav-list li');
+
+menu.addEventListener('click', responsive)
+for (let i = 0; i <= navItem.lenght; i++) {
+    navItem[i].addEventListener('click', responsive);
+}
+
+function responsive() {
+    navList.classList.toggle('active');
+}
