@@ -48,7 +48,7 @@ body {
 
 .people-pic { 
     height: 252px;
- }
+}
 
 #slider-palestrantes .card {
     flex: 1 0 252px;
@@ -95,4 +95,46 @@ body {
         display: block;
         cursor: pointer;
     }
+}
+
+.marquee {
+    padding: 2rem;
+    width: 100%;
+    --gap: 4rem;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+}
+
+.marquee__content {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    gap: var(--gap);
+    animation: marquee 20s linear infinite;
+}
+
+.marquee__content span {
+    font-size: 2rem;
+    color: #ccc;
+    font-family: tahoma;
+    letter-spacing: 0.2rem;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-100% - var(--gap)));
+    }
+}
+
+.gray-effect {
+    filter: grayscale(100%);
+}
+.gray-effect:hover {
+    filter: grayscale(0%);
 }
