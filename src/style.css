@@ -138,3 +138,16 @@ body {
 .gray-effect:hover {
     filter: grayscale(0%);
 }
+
+.partners-logo{
+    transition: 0.25s all ease-in-out;
+    height: 100%;
+    width: 100%;
+}
+
+.partners-logo:hover{
+    cursor: pointer;
+    filter: contrast(150%) brightness(115%);
+    scale: 105%;
+
+}
