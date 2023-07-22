@@ -11,7 +11,7 @@
   overflow: hidden;
   border-radius: 25px;
 }
-.card{
+.slide-container .card{
   border-radius: 25px;
   background-color: #FFF;
 }
