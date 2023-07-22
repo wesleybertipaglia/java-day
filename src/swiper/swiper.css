@@ -8,6 +8,7 @@
 }
 .slide-content{
   margin: 0 40px;
+  padding-bottom: 1rem;
   overflow: hidden;
   border-radius: 25px;
 }
