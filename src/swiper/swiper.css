@@ -8,10 +8,11 @@
 }
 .slide-content{
   margin: 0 40px;
+  padding-bottom: 1rem;
   overflow: hidden;
   border-radius: 25px;
 }
-.card{
+.slide-container .card{
   border-radius: 25px;
   background-color: #FFF;
 }
