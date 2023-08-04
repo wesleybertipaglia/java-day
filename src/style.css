@@ -168,3 +168,16 @@ body {
     text-transform: none;
 }
 
+
+.card-content div{
+    width: 100%;
+    text-align: center;
+}
+.card-content p {
+    text-align: justify;
+}
+
+.card-content div, .card-content p{
+    padding: 10px;
+}
+
