@@ -168,3 +168,26 @@ body {
     text-transform: none;
 }
 
+
+.card-content div{
+    width: 100%;
+    text-align: center;
+}
+.card-content p {
+    text-align: justify;
+}
+
+.card-content div, .card-content p{
+    padding: 10px;
+}
+
+.cursos-description p{
+    text-align: center;
+}
+.cursos-description p:first-child{
+    font-weight: 700;
+}
+
+#minicursos{
+    
+}
