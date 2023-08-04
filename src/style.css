@@ -181,3 +181,13 @@ body {
     padding: 10px;
 }
 
+.cursos-description p{
+    text-align: center;
+}
+.cursos-description p:first-child{
+    font-weight: 700;
+}
+
+#minicursos{
+    
+}
