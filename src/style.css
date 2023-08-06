@@ -157,6 +157,12 @@ body {
     filter: brightness(150%);
 }
 
+
+.info-content{
+    width: 800px; 
+    max-width: 100%;
+}
+
 #slider-patrocinadores .flex{
     padding: 15px;
 }
@@ -167,7 +173,6 @@ body {
     text-decoration: none;
     text-transform: none;
 }
-
 
 .card-content div{
     width: 100%;
@@ -188,6 +193,8 @@ body {
     font-weight: 700;
 }
 
-#minicursos{
-    
+.img-banda{
+    max-height:  400px; 
+    max-width: 400px;
+    object-fit: cover;
 }
