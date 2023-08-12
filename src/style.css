@@ -194,8 +194,29 @@ body {
 }
 
 .img-banda{
-    max-height:  400px; 
-    max-width: 400px;
+    max-height: 100%; 
+    max-width: 100%;
     object-fit: cover;
+    filter: drop-shadow(8px 8px 10px #EB5C27) saturate(110%) contrast(120%);
 }
 
+@media (min-width: 500px){
+    .img-banda{ 
+        max-width: 350px;
+        max-height: 350px;
+    }        
+}
+
+
+.tech-teachers{
+    z-index: 1;
+    color: #fff;
+    font-weight: 800;
+    font-size: 2em;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(235,92,39, .9);
+    font-family: Bahnschrift;
+    text-align: center;
+}
