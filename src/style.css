@@ -207,16 +207,15 @@ body {
     }        
 }
 
-
 .tech-teachers{
     z-index: 1;
     color: #fff;
     font-weight: 800;
-    font-size: 2em;
+    font-size: 1.5em;
     width: 100%;
     position: absolute;
     bottom: 0;
-    background-color: rgba(235,92,39, .9);
+    background-color: #0d4485;
     font-family: Bahnschrift;
     text-align: center;
 }
