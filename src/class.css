@@ -208,6 +208,8 @@
 /* border */
 .border-1 { border: solid 1px; }
 .border-2 { border: solid 2px; }
+.border-bottom-1 { border-bottom: solid 1px; }
+.border-bottom-2 { border-bottom: solid 2px; }
 
 .rounded { border-radius: 0.25rem; }
 .rounded-sm { border-radius: 0.5rem; }

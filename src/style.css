@@ -219,3 +219,18 @@ body {
     font-family: Bahnschrift;
     text-align: center;
 }
+
+.tab-control {
+    border-bottom: solid 2px #a0a2a395;
+    color: #a0a2a395;
+}
+
+.tab-control:hover {
+    border-bottom: solid 2px #a0a2a3;
+    color: #a0a2a3;
+}
+
+.tab-active {
+    border-bottom: solid 2px var(--blue) !important;
+    color: #3A468a !important;
+}
