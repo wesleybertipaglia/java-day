@@ -12,7 +12,7 @@ import Link from "../components/Link.astro";
 				<Link href="/">
 					<img
 						src="./favicon.svg"
-						alt=""
+						alt="Java Day"
 						title="Java Day"
 						class="h-12"
 					/>
@@ -51,7 +51,7 @@ import Link from "../components/Link.astro";
 
 			<div
 				id="mobile-menu"
-				class="fixed top-[73px] left-0 bottom-0 right-0 bg-secundary"
+				class="fixed top-[73px] left-0 bottom-0 hidden z-[2] right-0 bg-secundary"
 			>
 				<ul class="text-center text-4xl">
 					<li
@@ -94,7 +94,6 @@ import Link from "../components/Link.astro";
 				}
 
 				function responsive() {
-					console.log("flex");
 					mobileMenu.classList.toggle("hidden");
 				}
 			</script>
