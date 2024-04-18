@@ -34,12 +34,18 @@ import { gallery2023 } from "../../data/gallery";
                 <div class="close cursor-pointer fixed top-4 right-8 text-4xl">
                     &times;
                 </div>
-                <Container class="modal-content">
+                <Container
+                    class="modal-content flex items-center justify-between"
+                >
+                    <button class="prev h-full p-6 border">prev</button>
+
                     <img
                         src=""
                         alt=""
                         class="w-3/6 h-auto aspect-video object-cover mx-auto"
                     />
+
+                    <button class="next h-full p-6 border">next</button>
                 </Container>
             </div>
         </div>
