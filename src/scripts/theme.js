@@ -4,7 +4,6 @@ export default class Theme {
             newTheme = this.theme;
         }
         this.theme = newTheme;
-        console.log(this.theme)
     }
 
     get theme() {
