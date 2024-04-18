@@ -2,9 +2,10 @@
 import type { HTMLAttributes } from "astro/types";
 
 type Props = HTMLAttributes<"div">;
+
 const { class: classList, ...props } = Astro.props;
 ---
 
-<div {...props} class:list={["border-[1px] border-secundary-light", classList]}>
-	<slot />
+<div {...props} class:list={["mx-auto px-4 max-w-8xl", classList]}>
+    <slot />
 </div>

@@ -1,0 +1,29 @@
+---
+import CardImage from "./CardImage.astro";
+
+interface Props {
+	image: string;
+	name: string;
+	job: string;
+	description: string;
+	links: { title: string; url: string; icon: string }[];
+}
+
+const { image, name, job, description, links } = Astro.props;
+---
+
+<CardImage image={image} alt={name}>
+	<h3 class="text-xl">{name}</h3>
+	<p class="text-sm text-gray-300 mb-4">{job}</p>
+	<div class="flex flex-wrap gap-4">
+		{
+			links.map(({ url, title }) => (
+				<a href={url} class="text-gray-500 hover:underline">
+					{title}
+				</a>
+			))
+		}
+	</div>
+
+	<p class="text-gray-400">{description}</p>
+</CardImage>
