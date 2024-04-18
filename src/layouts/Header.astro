@@ -1,0 +1,103 @@
+---
+import Container from "../components/Container.astro";
+import Link from "../components/Link.astro";
+---
+
+<header
+	class="bg-inherit border-b-[1px] border-secundary-light sticky top-0 z-[2] shadow"
+>
+	<Container class="container p-6">
+		<div class="hidden md:flex gap-6 justify-between">
+			<div class="flex gap-6 items-center justify-start">
+				<Link href="/">
+					<img
+						src="./favicon.svg"
+						alt=""
+						title="Java Day"
+						class="h-12"
+					/>
+				</Link>
+
+				<ul class="flex gap-4 items-center">
+					<li><Link href="/#palestras">Palestras</Link></li>
+					<li><Link href="/#palestrantes">Palestrantes</Link></li>
+					<li><Link href="/#workshops">Workshops</Link></li>
+					<li><Link href="/#parceiros">Parceiros</Link></li>
+					<li><Link href="/#localizacao">Localização</Link></li>
+				</ul>
+			</div>
+
+			<div class="flex gap-6 items-center">
+				<button
+					class="bg-primary px-4 py-2 rounded font-medium text-white"
+				>
+					<Link href="/">Inscreva-se</Link>
+				</button>
+			</div>
+		</div>
+
+		<!-- mobile menu -->
+		<div class="flex md:hidden gap-6 items-center justify-between relative">
+			<Link href="/">Java Day</Link>
+
+			<button
+				id="mobile-menu-button"
+				class="text-white flex flex-col gap-[6px]"
+			>
+				<div class="w-6 h-[2px] bg-white"></div>
+				<div class="w-6 h-[2px] bg-white"></div>
+				<div class="w-6 h-[2px] bg-white"></div>
+			</button>
+
+			<div
+				id="mobile-menu"
+				class="fixed top-[73px] left-0 bottom-0 right-0 bg-secundary"
+			>
+				<ul class="text-center text-4xl">
+					<li
+						class="mobile-item px-6 py-8 border-b-[1px] border-secundary-light"
+					>
+						<Link href="/#palestras">Palestras</Link>
+					</li>
+					<li
+						class="mobile-item px-6 py-8 border-b-[1px] border-secundary-light"
+					>
+						<Link href="/#palestrantes">Palestrantes</Link>
+					</li>
+					<li
+						class="mobile-item px-6 py-8 border-b-[1px] border-secundary-light"
+					>
+						<Link href="/#workshops">Workshops</Link>
+					</li>
+					<li
+						class="mobile-item px-6 py-8 border-b-[1px] border-secundary-light"
+					>
+						<Link href="/#parceiros">Parceiros</Link>
+					</li>
+					<li
+						class="mobile-item px-6 py-8 border-b-[1px] border-secundary-light"
+					>
+						<Link href="/#localizacao">Localização</Link>
+					</li>
+				</ul>
+			</div>
+
+			<script>
+				const mobileMenu = document.getElementById("mobile-menu");
+				const mobileItems = document.querySelectorAll(".mobile-item");
+				const mobileMenuButton =
+					document.getElementById("mobile-menu-button");
+				mobileMenuButton.addEventListener("click", responsive);
+
+				for (let i = 0; i <= mobileItems.length; i++) {
+					mobileItems[i].addEventListener("click", responsive);
+				}
+
+				function responsive() {
+					console.log("flex");
+					mobileMenu.classList.toggle("hidden");
+				}
+			</script>
+		</div>
+	</Container>
+</header>

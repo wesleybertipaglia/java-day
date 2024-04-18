@@ -1,0 +1,52 @@
+---
+interface Props {
+    title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+
+    <!-- Meta tags - SEO -->
+    <meta
+        name="description"
+        content="Participe do Java Day Rio Preto, um evento sobre desenvolvimento em Java em São José do Rio Preto, SP. Fique por dentro das últimas tendências e novidades no mundo Java."
+    />
+    <meta
+        name="keywords"
+        content="Java, desenvolvimento, evento, conferência, São José do Rio Preto, SP"
+    />
+    <meta name="author" content="Java Day" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="Portuguese" />
+
+    <!-- Meta tags - Midias Sociais -->
+    <meta
+        property="og:title"
+        content="Java Day Rio Preto - Desenvolvimento em Java | São José do Rio Preto, SP"
+    />
+    <meta
+        property="og:description"
+        content="Participe do Java Day Rio Preto, um evento sobre desenvolvimento em Java em São José do Rio Preto, SP. Fique por dentro das últimas tendências e novidades no mundo Java."
+    />
+    <meta
+        property="og:image"
+        content="http://javanoroeste.com.br/javanoroeste/javaday_riopreto/src/assets/"
+    />
+    <meta
+        property="og:url"
+        content="http://javanoroeste.com.br/javanoroeste/javaday_riopreto/"
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Assets -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon" />
+
+    <!-- Estilizacao -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="min.css" />
+</head>
