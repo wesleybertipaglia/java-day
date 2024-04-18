@@ -3,7 +3,7 @@ const speakers = [
         name: 'Carlos Fernando Gonçalves',
         job: 'Desenvolvedor Sênior Backend na Compass.UOL',
         description: '',
-        image: './imgs/people/carlos-fernando-goncalves.jpeg',
+        image: './imgs/people/carlos-fernando-goncalves.webp',
         links: [
             {
                 title: 'Linkedin',
@@ -16,7 +16,7 @@ const speakers = [
         name: 'Dorival Querino da Silva',
         job: 'Senior Back End Developer',
         description: '',
-        image: './imgs/people/dorival-querino-silva.jpg',
+        image: './imgs/people/dorival-querino-silva.webp',
         links: [
             {
                 title: 'Linkedin',
@@ -39,7 +39,7 @@ const speakers = [
         name: 'Yugo Sakamoto',
         job: 'Data Science Manager na Accenture',
         description: '',
-        image: './imgs/people/yugo-sakamoto.jpeg',
+        image: './imgs/people/yugo-sakamoto.webp',
         links: [
             {
                 title: 'Linkedin',
@@ -67,7 +67,7 @@ const speakers = [
         name: 'Maximillian Arruda',
         job: 'Senior Backend Software Engineer na Digibee',
         description: '',
-        image: './imgs/people/maximillian-arruda.jpeg',
+        image: './imgs/people/maximillian-arruda.webp',
         links: [
             {
                 title: 'Linkedin',
@@ -95,7 +95,7 @@ const speakers = [
         name: 'Danilo Pereira De Luca',
         job: 'Software Engineer na ClassPass',
         description: '',
-        image: './imgs/people/danilo-pereira-luca.jpg',
+        image: './imgs/people/danilo-pereira-luca.webp',
         links: [
             {
                 title: 'Linkedin',
@@ -123,7 +123,7 @@ const speakers = [
         name: 'Gabriel Silva Andrade',
         job: 'Software Engineering Analyst na Accenture',
         description: '',
-        image: './imgs/people/gabriel-silva-andrade.jpeg',
+        image: './imgs/people/gabriel-silva-andrade.webp',
         links: [
             {
                 title: 'Linkedin',
@@ -146,7 +146,7 @@ const speakers = [
         name: 'Higor Granzoto',
         job: 'Arquiteto de Software na Shift',
         description: '',
-        image: './imgs/people/higor-granzoto.jpeg',
+        image: './imgs/people/higor-granzoto.webp',
         links: [
             {
                 title: 'Linkedin',
@@ -164,7 +164,7 @@ const speakers = [
         name: 'João Carlos Barsanelli',
         job: 'Suporte Tecnico na UNICOS',
         description: '',
-        image: './imgs/people/joao-carlos-barsanelli.jpg',
+        image: './imgs/people/joao-carlos-barsanelli.webp',
         links: [
             {
                 title: 'Linkedin',

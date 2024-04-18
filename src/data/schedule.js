@@ -4,7 +4,7 @@ const speeches = [
         speakers: [
             {
                 name: 'Gabriel Silva Andrade',
-                image: './imgs/people/gabriel-silva-andrade.jpeg',
+                image: './imgs/people/gabriel-silva-andrade.webp',
             }
         ],
         time: '',
@@ -16,7 +16,7 @@ const speeches = [
         speakers: [
             {
                 name: 'Dorival Querino da Silva',
-                image: './imgs/people/dorival-querino-silva.jpg',
+                image: './imgs/people/dorival-querino-silva.webp',
             }
         ],
         time: '',
@@ -28,7 +28,7 @@ const speeches = [
         speakers: [
             {
                 name: 'Yugo Sakamoto',
-                image: './imgs/people/yugo-sakamoto.jpeg',
+                image: './imgs/people/yugo-sakamoto.webp',
             }
         ],
         time: '',
@@ -40,7 +40,7 @@ const speeches = [
         speakers: [
             {
                 name: 'Maximillian Arruda',
-                image: './imgs/people/maximillian-arruda.jpeg',
+                image: './imgs/people/maximillian-arruda.webp',
             }
         ],
         time: '',
@@ -52,7 +52,7 @@ const speeches = [
         speakers: [
             {
                 name: 'Danilo Pereira De Luca',
-                image: './imgs/people/danilo-pereira-luca.jpg',
+                image: './imgs/people/danilo-pereira-luca.webp',
             }
         ],
         time: '',
@@ -64,7 +64,7 @@ const speeches = [
         speakers: [
             {
                 name: 'Carlos Fernando Gonçalves',
-                image: './imgs/people/carlos-fernando-goncalves.jpeg',
+                image: './imgs/people/carlos-fernando-goncalves.webp',
             }
         ],
         time: '',
@@ -79,7 +79,7 @@ const workshops = [
         speakers: [
             {
                 name: 'Higor Granzoto',
-                image: './imgs/people/higor-granzoto.jpeg'
+                image: './imgs/people/higor-granzoto.webp'
             }
         ],
         time: '',
@@ -91,7 +91,7 @@ const workshops = [
         speakers: [
             {
                 name: 'João Carlos Barsanelli',
-                image: './imgs/people/joao-carlos-barsanelli.jpg',
+                image: './imgs/people/joao-carlos-barsanelli.webp',
             }
         ],
         time: '',
