@@ -1,0 +1,27 @@
+---
+import AvatarGrid from "./AvatarGrid.astro";
+
+interface Props {
+    title: string;
+    description: string;
+    time: string;
+    speakers: { name: string; image: string }[];
+}
+
+const { title, description, time, speakers } = Astro.props;
+---
+
+<div
+    class="flex flex-wrap justify-between items-center gap-4 md:gap-6 py-4 border-b-[1px] border-secundary-light"
+>
+    <div class="w-full md:w-4/6">
+        <h3 class="text-base font-medium">{title}</h3>
+        <p class="text-sm text-gray-400">
+            {description}
+        </p>
+    </div>
+
+    <div>{time}</div>
+
+    <AvatarGrid avatars={speakers} />
+</div>

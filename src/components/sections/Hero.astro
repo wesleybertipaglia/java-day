@@ -1,0 +1,43 @@
+---
+import Container from "../Container.astro";
+---
+
+<section id="inicio" class="border-b-[1px] border-secundary-light">
+    <Container
+        class="container flex flex-col md:flex-row gap-6 justify-between items-center px-6 py-16"
+    >
+        <div class="flex flex-col gap-6 w-full">
+            <div class="flex flex-col gap-4">
+                <h1 class="text-7xl">Java Day</h1>
+                <p>
+                    Junte-se a nós para uma experiência emocionante e
+                    enriquecedora, onde você poderá se conectar com
+                    especialistas da indústria, expandir seus conhecimentos e
+                    explorar as últimas tendências e inovações em Java e suas
+                    tecnologias.
+                </p>
+            </div>
+
+            <div class="flex flex-wrap gap-4 items-center">
+                <button
+                    class="bg-primary px-4 py-2 rounded font-medium text-white"
+                >
+                    <a href="/">Garanta sua vaga ➜</a>
+                </button>
+                <p>26 de agosto de 2024.</p>
+            </div>
+        </div>
+
+        <div class="flex justify-end gap-6 w-full">
+            <figure
+                class="h-auto w-full max-w-[600px] aspect-square overflow-hidden"
+            >
+                <img
+                    src="./imgs/branding/duke-thumb.png"
+                    alt=""
+                    class="rotate-[-15deg]"
+                />
+            </figure>
+        </div>
+    </Container>
+</section>
