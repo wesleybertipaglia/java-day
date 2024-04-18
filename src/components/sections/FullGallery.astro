@@ -1,7 +1,7 @@
 ---
 import Container from "../Container.astro";
 import Link from "../Link.astro";
-import { gallery2023 } from "../../data/gallery";
+import gallery from "../../data/gallery";
 ---
 
 <section id="galeria">
@@ -19,17 +19,15 @@ import { gallery2023 } from "../../data/gallery";
             class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2"
         >
             {
-                gallery2023
-                    .filter((x) => x.pin)
-                    .map(({ image, alt }) => (
-                        <figure class="h-auto w-full aspect-video overflow-hidden object-cover bg-center bg-secundary-light">
-                            <img
-                                src={image}
-                                alt={alt}
-                                class="gallery__item cursor-pointer"
-                            />
-                        </figure>
-                    ))
+                gallery.map(({ image, alt }) => (
+                    <figure class="h-auto w-full aspect-video overflow-hidden object-cover bg-center bg-secundary-light">
+                        <img
+                            src={image}
+                            alt={alt}
+                            class="gallery__item cursor-pointer"
+                        />
+                    </figure>
+                ))
             }
 
             <div
@@ -48,7 +46,7 @@ import { gallery2023 } from "../../data/gallery";
                     <img
                         src=""
                         alt=""
-                        class="w-4/5 md:w-full max-w-[800px] h-auto aspect-video object-cover mx-auto"
+                        class="w-4/5 md:w-full max-w-[800px] h-auto aspect-video object-contain mx-auto"
                     />
 
                     <button
