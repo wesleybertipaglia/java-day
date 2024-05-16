@@ -46,7 +46,7 @@ npm install
 npm start
 ```
 
-Open your browser and go to [http://localhost:4321](http://localhost:4321) to see your Link Hub in action.
+Open your browser and go to [http://localhost:4321](http://localhost:4321) to see the website in action.
 
 ## 🧞 Commands
 
