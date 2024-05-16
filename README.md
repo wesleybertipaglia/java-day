@@ -22,7 +22,6 @@ Visit the live website: [Java Day Rio Preto](http://javanoroeste.com.br/javanoro
 ## 📚 Table of Contents
 - [Getting Started](#getting-started)
 - [Commands](#-commands)
-- [Endpoints](#-endpoints)
 - [Tech Stack](#-tech-stack)
 - [License](#-license)
 - [Checklist](#-checklist)
