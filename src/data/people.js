@@ -1,7 +1,7 @@
 const speakers = [
     {
         name: 'Carlos Fernando Gonçalves',
-        job: 'Desenvolvedor Sênior Backend na Compass.UOL',
+        job: 'Desenvolvedor Back-end Sênior na Compass.UOL',
         description: '',
         image: './imgs/people/carlos-fernando-goncalves.webp',
         links: [
@@ -14,7 +14,7 @@ const speakers = [
     },
     {
         name: 'Dorival Querino da Silva',
-        job: 'Senior Back End Developer',
+        job: 'Desenvolvedor Back-end Sênior',
         description: '',
         image: './imgs/people/dorival-querino-silva.webp',
         links: [
