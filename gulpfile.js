@@ -17,11 +17,11 @@ function optimizeImgs() {
         optipng({ optimizationLevel: 2 }),
       ])
     )
-    .pipe(dest('dist/images'))
+    .pipe(dest('public/imgs'))
 }
 
 function convertToWebp() {
-  return src('dist/images/**/*.{jpg,jpeg,png}').pipe(webp()).pipe(dest('dist/images'))
+  return src('public/imgs/**/*.{jpg,jpeg,png,webp}').pipe(webp()).pipe(dest('dist/images'))
 }
 
 function watchTask() {
