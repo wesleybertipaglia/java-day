@@ -10,55 +10,31 @@ const speakers = [
                 url: 'https://www.linkedin.com/in/carlos-fernando-goncalves/',
                 icon: ''
             },
-        ]
-    },
-    {
-        name: 'Dorival Querino da Silva',
-        job: 'Desenvolvedor Back-end Sênior',
-        description: '',
-        image: './imgs/people/dorival-querino-silva.webp',
-        links: [
-            {
-                title: 'Linkedin',
-                url: 'https://br.linkedin.com/in/dorivalq/',
-                icon: ''
-            },
-            {
-                title: 'Youtube',
-                url: 'https://www.youtube.com/@cloud4java',
-                icon: ''
-            },
             {
                 title: 'Twitter',
-                url: 'https://twitter.com/dorivalq/',
-                icon: ''
+                url: 'https://twitter.com/mercuriocfg'
             }
         ]
     },
     {
-        name: 'Yugo Sakamoto',
-        job: 'Data Science Manager na Accenture',
-        description: '',
-        image: './imgs/people/yugo-sakamoto.webp',
+        name: 'Daniel Dias dos Santos',
+        job: 'Engenheiro de Software no Itaú Unibanco',
+        description: 'Daniel é um entusiasta do desenvolvimento de software, especialmente comprometido com projetos de código aberto. Sua paixão por compartilhar conhecimento e explorar novas tecnologias Java o levou a contribuir significativamente para especificações importantes, como JSR 354, JSR-371, JSR-382 e JSR-385. Como committer ativo no projeto Apache TomEE, ele desempenha um papel fundamental no avanço e na inovação das soluções oferecidas pela plataforma.',
+        image: './imgs/people/daniel-dias-santos.webp',
         links: [
             {
                 title: 'Linkedin',
-                url: 'https://www.linkedin.com/in/yugo-sakamoto/',
-                icon: ''
-            },
-            {
-                title: 'Youtube',
-                url: 'https://www.youtube.com/@outoftheboxdev',
-                icon: ''
-            },
-            {
-                title: 'Site',
-                url: 'https://theleaderdev.com/',
+                url: 'https://www.linkedin.com/in/danieldiasjava/',
                 icon: ''
             },
             {
                 title: 'Twitter',
-                url: 'https://twitter.com/ymoto',
+                url: 'https://twitter.com/DanielDiasJava/',
+                icon: ''
+            },
+            {
+                title: 'GitHub',
+                url: 'https://github.com/Daniel-Dos',
                 icon: ''
             },
         ]
@@ -66,7 +42,7 @@ const speakers = [
     {
         name: 'Maximillian Arruda',
         job: 'Senior Backend Software Engineer na Digibee',
-        description: '',
+        description: 'Maximillian está envolvido com desenvolvimento de software desde 2003. Ele é Engenheiro de Software, Developer Advocate, líder do SouJava JUG, entusiasta de código aberto, Committer do projeto Eclipse JNoSQL - uma implementação para as especificações Jakarta NoSQL e Jakarta Data, Contribuidor e Embaixador do Jakarta EE, que gosta de aprender e ajudar desenvolvedores organizando, participando e palestrando em eventos de tecnologia e encontros da comunidade.',
         image: './imgs/people/maximillian-arruda.webp',
         links: [
             {
@@ -92,70 +68,19 @@ const speakers = [
         ]
     },
     {
-        name: 'Danilo Pereira De Luca',
-        job: 'Software Engineer na ClassPass',
-        description: '',
-        image: './imgs/people/danilo-pereira-luca.webp',
+        name: 'Nataniel Paiva',
+        job: 'Líder de Engenharia',
+        description: 'Nataniel é Líder de Engenharia com mais de 15 anos de experiência, apaixonado por programação e ensino. Criou cursos bem avaliados na Udemy e é palestrante frequente no The Developers Conference (TDC), abordando práticas modernas e tendências do setor. Leciona na Faculdade Gran, aplicando sua experiência prática para enriquecer o currículo acadêmico.',
+        image: './imgs/people/nataniel-paiva.webp',
         links: [
             {
                 title: 'Linkedin',
-                url: 'https://www.linkedin.com/in/danilopereiradeluca',
+                url: 'https://www.linkedin.com/in/natanielpaiva/',
                 icon: ''
             },
             {
-                title: 'Youtube',
-                url: 'https://www.youtube.com/@outoftheboxdev',
-                icon: ''
-            },
-            {
-                title: 'Site',
-                url: 'https://www.infoq.com/br/profile/Danilo-Pereira-de-Luca/',
-                icon: ''
-            },
-            {
-                title: 'Twitter',
-                url: 'https://twitter.com/danilopdl',
-                icon: ''
-            },
-        ]
-    },
-    {
-        name: 'Gabriel Silva Andrade',
-        job: 'Software Engineering Analyst na Accenture',
-        description: '',
-        image: './imgs/people/gabriel-silva-andrade.webp',
-        links: [
-            {
-                title: 'Linkedin',
-                url: 'https://br.linkedin.com/in/gabrieljava/',
-                icon: ''
-            },
-            {
-                title: 'Youtube',
-                url: 'https://www.youtube.com/@JavaJourney',
-                icon: ''
-            },
-            {
-                title: 'Twitter',
-                url: 'https://twitter.com/GabrielS_Java',
-                icon: ''
-            },
-        ]
-    },
-    {
-        name: 'Higor Granzoto',
-        job: 'Arquiteto de Software na Shift',
-        description: '',
-        image: './imgs/people/higor-granzoto.webp',
-        links: [
-            {
-                title: 'Linkedin',
-                url: 'https://www.linkedin.com/in/higorgranzoto/',
-                icon: ''
-            },
-            {
-                title: 'GitHub',
-                url: 'https://github.com/higorrg',
+                title: 'Instagram',
+                url: 'https://www.instagram.com/natanieltech/',
                 icon: ''
             },
         ]
