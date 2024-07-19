@@ -68,6 +68,28 @@ const speakers = [
         ]
     },
     {
+        name: 'Kamila Santos Oliveira',
+        job: 'Engenheira de Software Senior no iFood',
+        description: '',
+        image: './imgs/people/kamila-santos-oliveira.webp',
+        links: [
+            {
+                title: 'Linkedin',
+                url: 'https://www.linkedin.com/in/kamila-santos-oliveira/',
+                icon: ''
+            },
+            {
+                title: 'Twitter',
+                url: 'https://twitter.com/kamila_code'
+            },
+            {
+                title: 'GitHub',
+                url: 'https://github.com/Kamilahsantos',
+                icon: ''
+            },
+        ]
+    },
+    {
         name: 'Nataniel Paiva',
         job: 'Líder de Engenharia',
         description: 'Nataniel é Líder de Engenharia com mais de 15 anos de experiência, apaixonado por programação e ensino. Criou cursos bem avaliados na Udemy e é palestrante frequente no The Developers Conference (TDC), abordando práticas modernas e tendências do setor. Leciona na Faculdade Gran, aplicando sua experiência prática para enriquecer o currículo acadêmico.',

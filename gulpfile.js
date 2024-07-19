@@ -21,7 +21,7 @@ function optimizeImgs() {
 }
 
 function convertToWebp() {
-  return src('public/imgs/**/*.{jpg,jpeg,png,webp}').pipe(webp()).pipe(dest('dist/images'))
+  return src('public/imgs/**/*.{jpg,jpeg,png}').pipe(webp()).pipe(dest('dist/imgs/'))
 }
 
 function watchTask() {
