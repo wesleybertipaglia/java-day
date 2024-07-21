@@ -10,7 +10,7 @@ Visit the live website: [Java Day Rio Preto](http://javanoroeste.com.br/javanoro
 ### Features:
 
 - ✅ Simple, clean and responsive design
-- ✅ Event details, speakers, agenda, and contact information
+- ✅ Event details, speakers, schedule, and contact information
 - ✅ Dark mode
 - ✅ Registration form
 - ✅ Interactive map
@@ -24,7 +24,6 @@ Visit the live website: [Java Day Rio Preto](http://javanoroeste.com.br/javanoro
 - [Commands](#-commands)
 - [Tech Stack](#-tech-stack)
 - [License](#-license)
-- [Checklist](#-checklist)
 
 To know more about the project structure, check the [structure.md](/docs/structure.md) file.
 
@@ -64,18 +63,6 @@ All commands are run from the root of the project, from a terminal:
 - [Astro](https://astro.build/)
 - [Jest](https://jestjs.io/)
 - [Tailwind CSS](https://tailwindcss.com/)
-
-## ☑️ Cheklist
-
-The following checklist can be used to track the project progress:
-
-- [x] Authentication
-- [x] Authorization
-- [x] Documentation
-- [ ] Tests
-- [ ] CI/CD
-- [x] Deploy
-- [ ] Monitoring
 
 ## 📜 License
 
