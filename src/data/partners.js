@@ -51,16 +51,16 @@ const support = [
         invert: false
     },
     {
-        name: 'Bebidas Poty',
-        logo: './imgs/partners/bebidas-poty.webp',
-        url: 'https://www.bebidaspoty.com.br/',
+        name: 'Oracle',
+        logo: './imgs/partners/oracle.webp',
+        url: 'https://www.oracle.com/',
         invert: false
     },
     {
-        name: 'Oracle',
-        logo: './imgs/partners/oracle.webp',
-        url: 'https://www.oracle.com',
-        invert: false
+        name: 'Oracle Academy',
+        logo: './imgs/partners/oracle-academy.webp',
+        url: 'https://academy.oracle.com/',
+        invert: true
     }
 ]
 
