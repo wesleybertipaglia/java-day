@@ -14,35 +14,37 @@ import Link from "../Link.astro";
             </p>
         </div>
 
-        <div class="flex flex-col gap-4">
-            <h3>Patrocinadores</h3>
+        {
+            sponsors.length > 0 ? (
+                <div class="flex flex-col gap-4">
+                    <h3>Patrocinadores</h3>
 
-            <div
-                class="grid grid-cols-2 md:grid-cols-5 gap-6 justify-center items-center border border-secundary-light"
-            >
-                {
-                    sponsors.map(({ url, name, logo, invert }) => (
-                        <Link href={url} target="_blank">
-                            <figure
-                                class="h-auto w-full aspect-video flex items-center justify-center p-6"
-                                title={name}
-                            >
-                                <img
-                                    src={logo}
-                                    alt={name}
-                                    class="h-24 w-24 object-contain"
-                                    class:list={
-                                        invert
-                                            ? "filter brightness-0 invert"
-                                            : ""
-                                    }
-                                />
-                            </figure>
-                        </Link>
-                    ))
-                }
-            </div>
-        </div>
+                    <div class="grid grid-cols-2 md:grid-cols-5 gap-6 justify-center items-center border border-secundary-light">
+                        {sponsors.map(({ url, name, logo, invert }) => (
+                            <Link href={url} target="_blank">
+                                <figure
+                                    class="h-auto w-full aspect-video flex items-center justify-center p-6"
+                                    title={name}
+                                >
+                                    <img
+                                        src={logo}
+                                        alt={name}
+                                        class="h-24 w-24 object-contain"
+                                        class:list={
+                                            invert
+                                                ? "filter brightness-0 invert"
+                                                : ""
+                                        }
+                                    />
+                                </figure>
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+            ) : (
+                ""
+            )
+        }
 
         <div class="flex flex-col gap-4">
             <h3>Apoiadores</h3>
