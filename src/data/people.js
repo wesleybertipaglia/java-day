@@ -108,6 +108,32 @@ const speakers = [
         ]
     },
     {
+        name: 'João Augusto',
+        job: 'Engenheiro de Software no Nubank',
+        description: '',
+        image: './imgs/people/joao-augusto.webp',
+        links: [
+            {
+                title: 'Linkedin',
+                url: 'https://www.linkedin.com/in/lanjoni/',
+                icon: ''
+            }
+        ]
+    },
+    {
+        name: 'Taylson Martinez',
+        job: 'Desenvolvedor Kotlin e Java na RedSpark',
+        description: '',
+        image: './imgs/people/taylson-martinez.webp',
+        links: [
+            {
+                title: 'Linkedin',
+                url: 'https://www.linkedin.com/in/taylson-martinez-01134a3b/',
+                icon: ''
+            }
+        ]
+    },
+    {
         name: 'João Carlos Barsanelli',
         job: 'Suporte Tecnico na UNICOS',
         description: '',
@@ -124,7 +150,25 @@ const speakers = [
                 icon: ''
             },
         ]
-    }
+    },
+    {
+        name: 'Wesley Bertipaglia',
+        job: 'Desenvolvedor Web',
+        description: '',
+        image: './imgs/people/wesley-bertipaglia.webp',
+        links: [
+            {
+                title: 'Linkedin',
+                url: 'https://www.linkedin.com/in/wesley-bertipaglia',
+                icon: ''
+            },
+            {
+                title: 'GitHub',
+                url: 'https://github.com/wesleybertipaglia',
+                icon: ''
+            },
+        ]
+    },
 ]
 
 const organizers = [
