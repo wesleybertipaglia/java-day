@@ -2,6 +2,7 @@ import gulp from 'gulp'
 import terser from 'gulp-terser'
 import imagemin, { mozjpeg, optipng } from 'gulp-imagemin'
 import webp from 'gulp-webp'
+import { deleteAsync } from 'del'
 
 const { src, dest, watch, series } = gulp
 
@@ -21,17 +22,22 @@ function optimizeImgs() {
 }
 
 function convertToWebp() {
-  return src('public/imgs/**/*.{jpg,jpeg,png}').pipe(webp()).pipe(dest('dist/imgs/'))
+  return src('public/imgs/**/*.{jpg,jpeg,png}').pipe(webp()).pipe(dest('public/imgs/'))
+}
+
+function cleanImgs() {
+  return deleteAsync(['public/imgs/**/*.{jpg,jpeg,png}', '!public/imgs/**/*.webp'])
 }
 
 function watchTask() {
   watch('src/scripts/*.js', jsMinify);
-  watch('public/imgs/**/*.{jpg,jpeg,png}', series(optimizeImgs, convertToWebp));
+  watch('public/imgs/**/*.{jpg,jpeg,png}', series(optimizeImgs, convertToWebp))
 }
 
 export default series(
   jsMinify,
   optimizeImgs,
   convertToWebp,
+  cleanImgs,
   watchTask
 )
