@@ -11,6 +11,30 @@ const speeches = [
         description: 'Nessa palestra vamos passar pelos princípios da arquitetura de software, pelos principais componentes de arquitetura de microsserviços, padrões de microsserviços e algumas boas práticas que você DEV JAVA deve se preocupar.',
         year: 2024
     },
+    {
+        title: 'Arquitetando uma Solução com IA Generativa Multi-Modal',
+        speakers: [
+            {
+                name: 'Alexandre Aquiles',
+                image: './imgs/people/alexandre-aquiles.webp',
+            }
+        ],
+        time: '',
+        description: 'Como utilizar as capacidades multi-modais das LLMs como GPT 4+ da OpenAI e Google Gemini para moderar vídeos? \n Quais as restrições arquiteturais devem ser levadas em conta ao utilizar LLMs para lidar com classificação de imagens e vídeos? Como lidar com custo, resiliência, UX, testabilidade e portabilidade entre diferentes APIs? Qual o melhor estilo arquitetural a ser adotado? \n E como usar Java para implementar essa solução? \n Essas e outras questões serão discutidas nessa apresentação!',
+        year: 2024
+    },
+    {
+        title: 'Tornando-se um contribuidor Open source com apache Tomee',
+        speakers: [
+            {
+                name: 'Daniel Dias dos Santos',
+                image: './imgs/people/daniel-dias-santos.webp',
+            }
+        ],
+        time: '',
+        description: 'Esta palestra convida indivíduos a se tornarem contribuidores do Apache TomEE, uma versão certificada para Jakarta EE do Apache Tomcat. Ela explica o que é o Apache TomEE e detalha os papéis em projetos de código aberto, como usuários, contribuidores, committers e membros do comitê de gerenciamento de projetos. Além disso, descreve os diferentes tipos de contribuições possíveis, incluindo documentação, testes e desenvolvimento de novos recursos.',
+        year: 2024
+    },
 ]
 
 const workshops = [
@@ -23,7 +47,7 @@ const workshops = [
             }
         ],
         time: '',
-        description: '',
+        description: 'Neste minicurso prático, aprenda os conceitos básicos de programação funcional em Java, como funções de alta ordem, lambdas, streams e muito mais.',
         year: 2024
     },
     {
@@ -35,7 +59,7 @@ const workshops = [
             }
         ],
         time: '',
-        description: '',
+        description: 'Neste minicurso prático, aprenda os conceitos básicos de Kotlin, como criar classes, funções, extensões e muito mais.',
         year: 2024
     },
     {
