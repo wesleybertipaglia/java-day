@@ -2,6 +2,20 @@
 import Container from "../Container.astro";
 import ScheduleItem from "../ScheduleItem.astro";
 import schedule from "../../data/schedule";
+
+const parseTime = (time: string): Date => {
+    const [hours, minutes] = time.split(":").map(Number);
+    const date = new Date();
+    date.setHours(hours, minutes, 0, 0);
+    return date;
+};
+
+const sortedSchedule = schedule
+    .map((item) => ({ ...item, parsedTime: parseTime(item.time) }))
+    .sort(
+        (a, b) =>
+            (a.parsedTime as Date).getTime() - (b.parsedTime as Date).getTime(),
+    );
 ---
 
 <section id="agenda">
@@ -12,7 +26,11 @@ import schedule from "../../data/schedule";
         </div>
 
         <div class="flex flex-col">
-            {schedule.map((item) => <ScheduleItem {...item} />)}
+            {
+                sortedSchedule.map((item) => (
+                    <ScheduleItem {...item} time={item.time} />
+                ))
+            }
         </div>
     </Container>
 </section>
