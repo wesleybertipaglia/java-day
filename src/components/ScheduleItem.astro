@@ -1,14 +1,16 @@
 ---
 import AvatarGrid from "./AvatarGrid.astro";
+import Link from "./Link.astro";
 
 interface Props {
     title: string;
     description: string;
     time: string;
     speakers: { name: string; image: string }[];
+    link: { title: string; url: string };
 }
 
-const { title, description, time, speakers } = Astro.props;
+const { title, description, time, speakers, link } = Astro.props;
 ---
 
 <div
@@ -19,6 +21,18 @@ const { title, description, time, speakers } = Astro.props;
         <p class="text-sm text-gray-400">
             {description}
         </p>
+
+        {
+            link && (
+                <Link
+                    href={link.url}
+                    class:list="text-sm text-primary"
+                    target="_blank"
+                >
+                    {link.title}
+                </Link>
+            )
+        }
     </div>
 
     <div>{time}</div>

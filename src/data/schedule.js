@@ -74,7 +74,7 @@ const workshops = [
         description: 'Neste minicurso teórico e prático você vai explorar os principais conceitos sobre programação funcional, apresentada de uma visão para desenvolvimento primário ao lado da máquina virtual Java, com Clojure, um dialeto de Lisp com foco na produtividade de desenvolvimento e uma abordagem extremamente produtiva!',
         year: 2024,
         link: {
-            title: 'Participe',
+            title: 'Inscreva-se',
             url: 'https://www.sympla.com.br/evento/workshop-explorando-o-ecossistema-java-aprofundando-em-programacao-funcional__2571863'
         }
     },
@@ -90,7 +90,7 @@ const workshops = [
         description: 'Neste mini curso, você aprenderá a desenvolver uma API Web usando Kotlin e Spring Boot, utilizando as com requisições GET, POST, PUT e DELETE, a utilização de DTOs para representar informações de input e output. Você também aprenderá a realizar validações utilizando Bean Validation, seguir corretamente os princípios do modelo REST e tratar exceções na API de forma eficaz. Vamos juntos desenvolver uma API robustas e bem estruturadas com Kotlin, aproveitando suas vantagens em comparação ao Java.',
         year: 2024,
         link: {
-            title: 'Participe',
+            title: 'Inscreva-se',
             url: 'https://www.sympla.com.br/evento/workshop-kotlin-spring-boot-uma-alternativa-a-linguagem-java/2574687'
         }
     },
@@ -106,7 +106,7 @@ const workshops = [
         description: 'Neste minicurso prático, explore as principais ferramentas do GitHub, controle de versões, pull requests e muito mais. Ideal para iniciantes e entusiastas em busca de habilidades essenciais para o desenvolvimento colaborativo.',
         year: 2024,
         link: {
-            title: 'Participe',
+            title: 'Inscreva-se',
             url: 'https://www.sympla.com.br/evento/workshop-github-funcionalidades-essenciais-para-colaboracao-em-projetos-de-software/2571285'
         }
     },
@@ -122,7 +122,7 @@ const workshops = [
         description: 'Neste minicurso prático, aprenda os conceitos básicos de React, como criar componentes, manipular estados e muito mais.',
         year: 2024,
         link: {
-            title: 'Participe',
+            title: 'Inscreva-se',
             url: 'https://www.sympla.com.br/evento/workshop-desenvolvimento-de-aplicacoes-web-modernas/2571863'
         }
     },
