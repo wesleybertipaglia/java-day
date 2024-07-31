@@ -1,7 +1,7 @@
 ---
 import Container from "../Container.astro";
 import ScheduleItem from "../ScheduleItem.astro";
-import schedule from "../../data/schedule";
+import { speeches, workshops } from "../../data/schedule";
 
 const parseTime = (time: string): Date => {
     const [hours, minutes] = time.split(":").map(Number);
@@ -10,7 +10,7 @@ const parseTime = (time: string): Date => {
     return date;
 };
 
-const sortedSchedule = schedule
+const sortedSpeeches = speeches
     .map((item) => ({ ...item, parsedTime: parseTime(item.time) }))
     .sort(
         (a, b) =>
@@ -19,18 +19,29 @@ const sortedSchedule = schedule
 ---
 
 <section id="agenda">
-    <Container class="container flex flex-col gap-6 px-6 py-16">
+    <Container class="container flex flex-col gap-6 px-6 py-16" id="palestras">
         <div class="flex flex-col">
-            <h2 class="text-2xl">Agenda</h2>
-            <p class="text-gray-500">Fique por dentro da nossa programação.</p>
+            <h2 class="text-2xl">Agenda de Palestras</h2>
+            <p class="text-gray-500">Fique por dentro das nossas palestras.</p>
         </div>
 
         <div class="flex flex-col">
             {
-                sortedSchedule.map((item) => (
+                sortedSpeeches.map((item) => (
                     <ScheduleItem {...item} time={item.time} />
                 ))
             }
+        </div>
+    </Container>
+
+    <Container class="container flex flex-col gap-6 px-6 py-16" id="workshops">
+        <div class="flex flex-col">
+            <h2 class="text-2xl">Agenda de Workshops</h2>
+            <p class="text-gray-500">Participe dos nossos workshops.</p>
+        </div>
+
+        <div class="flex flex-col">
+            {workshops.map((item) => <ScheduleItem {...item} />)}
         </div>
     </Container>
 </section>

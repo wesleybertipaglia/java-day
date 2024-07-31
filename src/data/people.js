@@ -12,7 +12,8 @@ const speakers = [
             },
             {
                 title: 'Twitter',
-                url: 'https://twitter.com/mercuriocfg'
+                url: 'https://twitter.com/mercuriocfg',
+                icon: ''
             }
         ]
     },
@@ -59,12 +60,7 @@ const speakers = [
                 title: 'Site',
                 url: 'https://linktr.ee/maxdearruda',
                 icon: ''
-            },
-            {
-                title: 'Twitter',
-                url: 'https://twitter.com/maxdearruda',
-                icon: ''
-            },
+            }
         ]
     },
     {
@@ -198,19 +194,6 @@ const speakers = [
 ]
 
 const organizers = [
-    {
-        name: '',
-        job: '',
-        description: '',
-        image: '',
-        links: [
-            {
-                title: 'Linkedin',
-                url: '',
-                icon: ''
-            },
-        ]
-    },
 ]
 
 const people = {

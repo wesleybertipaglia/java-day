@@ -1,8 +1,7 @@
 ---
 import Container from "../Container.astro";
-import Card from "../Card.astro";
-import AvatarGrid from "../AvatarGrid.astro";
 import { workshops } from "../../data/schedule";
+import CardEvent from "../CardEvent.astro";
 ---
 
 <section id="workshops">
@@ -14,13 +13,13 @@ import { workshops } from "../../data/schedule";
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {
-                workshops.map(({ title, description, speakers }) => (
-                    <Card class="px-4 py-6 flex flex-col gap-4 h-fit">
-                        <h3 class="text-lg">{title}</h3>
-                        <p class="text-gray-400">{description}</p>
-
-                        <AvatarGrid avatars={speakers} />
-                    </Card>
+                workshops.map(({ title, description, link, speakers }) => (
+                    <CardEvent
+                        title={title}
+                        description={description}
+                        link={link}
+                        speakers={speakers}
+                    />
                 ))
             }
         </div>

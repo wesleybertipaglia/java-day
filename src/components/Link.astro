@@ -6,6 +6,6 @@ type Props = HTMLAttributes<"a">;
 const { class: classList, ...props } = Astro.props;
 ---
 
-<a {...props} class:list={["hover:underline", classList]}>
+<a {...props} class:list={["hover:underline", "cursor:pointer", classList]}>
 	<slot />
 </a>

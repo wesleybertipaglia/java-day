@@ -47,6 +47,18 @@ const speeches = [
         description: 'Nesta palestra, vamos explorar o fascinante mundo do Jakarta EE 11, mergulhando em um breve histórico que traça a evolução desde os tempos do Java EE até as inovações atuais. Acompanhando essa jornada, você entenderá os motivos e a importância da transição para o Jakarta EE, além de conhecer as melhorias e novas especificações introduzidas na versão 11.',
         year: 2024
     },
+    {
+        title: 'Apache Camel: Orquestrando Microservices com Elegância',
+        speakers: [
+            {
+                name: 'Nataniel Paiva',
+                image: './imgs/people/nataniel-paiva.webp',
+            }
+        ],
+        time: '14:10',
+        description: 'Nesta palestra, vamos explorar como o Apache Camel pode ser utilizado para orquestrar microservices de maneira eficiente e flexível. O Apache Camel é um framework robusto de integração que permite a implementação de padrões de integração empresarial de forma simples e intuitiva.',
+        year: 2024
+    },
 ]
 
 const workshops = [
@@ -60,7 +72,11 @@ const workshops = [
         ],
         time: '',
         description: 'Neste minicurso teórico e prático você vai explorar os principais conceitos sobre programação funcional, apresentada de uma visão para desenvolvimento primário ao lado da máquina virtual Java, com Clojure, um dialeto de Lisp com foco na produtividade de desenvolvimento e uma abordagem extremamente produtiva!',
-        year: 2024
+        year: 2024,
+        link: {
+            title: 'Participe',
+            url: 'https://www.sympla.com.br/evento/workshop-explorando-o-ecossistema-java-aprofundando-em-programacao-funcional__2571863'
+        }
     },
     {
         title: 'Introdução a Kotlin',
@@ -72,7 +88,11 @@ const workshops = [
         ],
         time: '',
         description: 'Neste mini curso, você aprenderá a desenvolver uma API Web usando Kotlin e Spring Boot, utilizando as com requisições GET, POST, PUT e DELETE, a utilização de DTOs para representar informações de input e output. Você também aprenderá a realizar validações utilizando Bean Validation, seguir corretamente os princípios do modelo REST e tratar exceções na API de forma eficaz. Vamos juntos desenvolver uma API robustas e bem estruturadas com Kotlin, aproveitando suas vantagens em comparação ao Java.',
-        year: 2024
+        year: 2024,
+        link: {
+            title: 'Participe',
+            url: 'https://www.sympla.com.br/evento/workshop-kotlin-spring-boot-uma-alternativa-a-linguagem-java/2574687'
+        }
     },
     {
         title: 'GitHub - Funcionalidades Essenciais para Colaboração em Projetos de Software',
@@ -84,7 +104,11 @@ const workshops = [
         ],
         time: '',
         description: 'Neste minicurso prático, explore as principais ferramentas do GitHub, controle de versões, pull requests e muito mais. Ideal para iniciantes e entusiastas em busca de habilidades essenciais para o desenvolvimento colaborativo.',
-        year: 2024
+        year: 2024,
+        link: {
+            title: 'Participe',
+            url: 'https://www.sympla.com.br/evento/workshop-github-funcionalidades-essenciais-para-colaboracao-em-projetos-de-software/2571285'
+        }
     },
     {
         title: 'React - Desenvolvimento de Aplicações Web Modernas',
@@ -96,7 +120,11 @@ const workshops = [
         ],
         time: '',
         description: 'Neste minicurso prático, aprenda os conceitos básicos de React, como criar componentes, manipular estados e muito mais.',
-        year: 2024
+        year: 2024,
+        link: {
+            title: 'Participe',
+            url: 'https://www.sympla.com.br/evento/workshop-desenvolvimento-de-aplicacoes-web-modernas/2571863'
+        }
     },
 ]
 

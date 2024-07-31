@@ -1,0 +1,24 @@
+---
+import Card from "./Card.astro";
+import Link from "./Link.astro";
+import AvatarGrid from "./AvatarGrid.astro";
+
+interface Props {
+    title: string;
+    description: string;
+    link: { title: string; url: string };
+    speakers: { name: string; image: string }[];
+}
+
+const { title, description, link, speakers } = Astro.props;
+---
+
+<Card class="px-4 py-6 flex flex-col gap-4 h-fit">
+    <h3 class="text-lg">{title}</h3>
+    <p class="text-gray-400">{description}</p>
+    <Link href={link.url} class:list={"text-primary"} target="_blank">
+        {link.title}
+    </Link>
+
+    <AvatarGrid avatars={speakers} />
+</Card>
