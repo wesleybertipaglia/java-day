@@ -42,7 +42,7 @@ const speakers = [
     },
     {
         name: 'Maximillian Arruda',
-        job: 'Engenheiro de Software no Itaú',
+        job: 'Engenheiro de Software Senior no Banco Itaú Unibanco',
         description: 'Maximillian está envolvido com desenvolvimento de software desde 2003. Ele é Engenheiro de Software, Developer Advocate, líder do SouJava JUG, entusiasta de código aberto, Committer do projeto Eclipse JNoSQL - uma implementação para as especificações Jakarta NoSQL e Jakarta Data, Contribuidor e Embaixador do Jakarta EE, que gosta de aprender e ajudar desenvolvedores organizando, participando e palestrando em eventos de tecnologia e encontros da comunidade.',
         image: './imgs/people/maximillian-arruda.webp',
         links: [
