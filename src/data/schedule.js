@@ -35,6 +35,18 @@ const speeches = [
         description: 'Esta palestra convida indivíduos a se tornarem contribuidores do Apache TomEE, uma versão certificada para Jakarta EE do Apache Tomcat. Ela explica o que é o Apache TomEE e detalha os papéis em projetos de código aberto, como usuários, contribuidores, committers e membros do comitê de gerenciamento de projetos. Além disso, descreve os diferentes tipos de contribuições possíveis, incluindo documentação, testes e desenvolvimento de novos recursos.',
         year: 2024
     },
+    {
+        title: 'Indo além da era do Java EE com o Jakarta EE 11',
+        speakers: [
+            {
+                name: 'Maximillian Arruda',
+                image: './imgs/people/maximillian-arruda.webp',
+            }
+        ],
+        time: '10:10',
+        description: 'Nesta palestra, vamos explorar o fascinante mundo do Jakarta EE 11, mergulhando em um breve histórico que traça a evolução desde os tempos do Java EE até as inovações atuais. Acompanhando essa jornada, você entenderá os motivos e a importância da transição para o Jakarta EE, além de conhecer as melhorias e novas especificações introduzidas na versão 11.',
+        year: 2024
+    },
 ]
 
 const workshops = [
@@ -47,7 +59,7 @@ const workshops = [
             }
         ],
         time: '',
-        description: 'Neste minicurso prático, aprenda os conceitos básicos de programação funcional em Java, como funções de alta ordem, lambdas, streams e muito mais.',
+        description: 'Neste minicurso teórico e prático você vai explorar os principais conceitos sobre programação funcional, apresentada de uma visão para desenvolvimento primário ao lado da máquina virtual Java, com Clojure, um dialeto de Lisp com foco na produtividade de desenvolvimento e uma abordagem extremamente produtiva!',
         year: 2024
     },
     {
@@ -59,7 +71,7 @@ const workshops = [
             }
         ],
         time: '',
-        description: 'Neste minicurso prático, aprenda os conceitos básicos de Kotlin, como criar classes, funções, extensões e muito mais.',
+        description: 'Neste mini curso, você aprenderá a desenvolver uma API Web usando Kotlin e Spring Boot, utilizando as com requisições GET, POST, PUT e DELETE, a utilização de DTOs para representar informações de input e output. Você também aprenderá a realizar validações utilizando Bean Validation, seguir corretamente os princípios do modelo REST e tratar exceções na API de forma eficaz. Vamos juntos desenvolver uma API robustas e bem estruturadas com Kotlin, aproveitando suas vantagens em comparação ao Java.',
         year: 2024
     },
     {
@@ -71,7 +83,7 @@ const workshops = [
             }
         ],
         time: '',
-        description: 'Neste minicurso prático, explore as principais ferramentas do GitHub, controle de versões, pull requests e muito mais.',
+        description: 'Neste minicurso prático, explore as principais ferramentas do GitHub, controle de versões, pull requests e muito mais. Ideal para iniciantes e entusiastas em busca de habilidades essenciais para o desenvolvimento colaborativo.',
         year: 2024
     },
     {
