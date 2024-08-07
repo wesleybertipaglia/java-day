@@ -158,7 +158,7 @@ const speakers = [
     {
         name: 'João Carlos Barsanelli',
         job: 'Suporte Tecnico na UNICOS',
-        description: '',
+        description: 'João Carlos Barsanelli é Suporte de TI na Unicos e graduando em Informática para Negócios pela FATEC. Como GitHub Campus Expert e membro do Programa Aspire Leaders, está em formação para desenvolver aspectos de liderança e gerar impacto social em suas comunidades. Possui experiência em desenvolvimento de software, participando de projetos web e mobile. Antes de se juntar à Unicos Incorporadora, atuou em empresas como Real Alimentos e EMPRO - Empresa Municipal de Processamento de Dados.',
         image: './imgs/people/joao-carlos-barsanelli.webp',
         links: [
             {
