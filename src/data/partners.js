@@ -32,6 +32,12 @@ const support = [
         logo: './imgs/partners/oracle-academy.webp',
         url: 'https://academy.oracle.com/',
         invert: true
+    },
+    {
+        name: 'GitHub',
+        logo: './imgs/partners/github.svg',
+        url: 'https://github.com/',
+        invert: true
     }
 ]
 
