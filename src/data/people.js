@@ -66,7 +66,7 @@ const speakers = [
     {
         name: 'Kamila Santos Oliveira',
         job: 'Engenheira de Software Senior no iFood',
-        description: '',
+        description: 'Dev senior no ifood, 4x microsoft mvp, criadora de conteúdo no perfil kamila code, co autora de 3 livros , mentora e professora de mais de 3 mil pessoas.',
         image: './imgs/people/kamila-santos-oliveira.webp',
         links: [
             {
