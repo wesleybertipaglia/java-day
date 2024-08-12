@@ -190,6 +190,24 @@ const speakers = [
                 icon: ''
             },
         ]
+    },
+    {
+        name: 'Luciene Cavalcanti',
+        job: 'Professora, Maker, Programadora, Palestrante e Formadora',
+        description: '',
+        image: './imgs/people/luciene-cavalcanti.webp',
+        links: [
+            {
+                title: 'Linkedin',
+                url: 'https://www.linkedin.com/in/luciene-cavalcanti-3709a7b',
+                icon: ''
+            },
+            {
+                title: 'Site',
+                url: 'https://linktr.ee/profa.dra.luciene',
+                icon: ''
+            }
+        ]
     }
 ]
 

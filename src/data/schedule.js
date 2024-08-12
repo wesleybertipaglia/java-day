@@ -112,35 +112,39 @@ const speeches = [
 
 const workshops = [
     {
-        title: 'Explorando o Ecossistema Java: Aprofundando em Programação Funcional',
+        title: 'Spring Boot: crie um CRUD de modo rápido e fácil',
         speakers: [
             {
-                name: 'João Augusto',
-                image: './imgs/people/joao-augusto.webp'
+                name: 'Luciene Cavalcanti',
+                image: './imgs/people/luciene-cavalcanti.webp'
             }
         ],
-        time: '',
-        description: 'Neste minicurso teórico e prático você vai explorar os principais conceitos sobre programação funcional, apresentada de uma visão para desenvolvimento primário ao lado da máquina virtual Java, com Clojure, um dialeto de Lisp com foco na produtividade de desenvolvimento e uma abordagem extremamente produtiva!',
+        date: '30/08',
+        time: '19:00 - 22:00',
+        local: 'FATEC',
+        description: '',
         year: 2024,
         link: {
             title: 'Inscreva-se',
-            url: 'https://www.sympla.com.br/evento/workshop-explorando-o-ecossistema-java-aprofundando-em-programacao-funcional__2571863'
+            url: 'https://www.sympla.com.br/workshop---spring-boot-crie-um-crud-de-modo-rapido-e-facil__2579385'
         }
     },
     {
-        title: 'Introdução a Kotlin',
+        title: 'Desenvolvimento de Aplicações Web Modernas com React',
         speakers: [
             {
-                name: 'Taylson Martinez',
-                image: './imgs/people/taylson-martinez.webp'
+                name: 'Wesley Bertipaglia',
+                image: './imgs/people/wesley-bertipaglia.webp'
             }
         ],
-        time: '',
-        description: 'Neste mini curso, você aprenderá a desenvolver uma API Web usando Kotlin e Spring Boot, utilizando as com requisições GET, POST, PUT e DELETE, a utilização de DTOs para representar informações de input e output. Você também aprenderá a realizar validações utilizando Bean Validation, seguir corretamente os princípios do modelo REST e tratar exceções na API de forma eficaz. Vamos juntos desenvolver uma API robustas e bem estruturadas com Kotlin, aproveitando suas vantagens em comparação ao Java.',
+        date: '30/08',
+        time: '19:00 - 22:00',
+        local: 'FATEC',
+        description: 'Neste minicurso prático, aprenda os conceitos básicos de React, como criar componentes, manipular estados e muito mais.',
         year: 2024,
         link: {
             title: 'Inscreva-se',
-            url: 'https://www.sympla.com.br/evento/workshop-kotlin-spring-boot-uma-alternativa-a-linguagem-java/2574687'
+            url: 'https://www.sympla.com.br/evento/workshop-desenvolvimento-de-aplicacoes-web-modernas/2571863'
         }
     },
     {
@@ -151,7 +155,9 @@ const workshops = [
                 image: './imgs/people/joao-carlos-barsanelli.webp',
             }
         ],
-        time: '',
+        date: '31/08',
+        time: '14:00 - 17:00',
+        local: 'IFSP',
         description: 'Neste minicurso prático, explore as principais ferramentas do GitHub, controle de versões, pull requests e muito mais. Ideal para iniciantes e entusiastas em busca de habilidades essenciais para o desenvolvimento colaborativo.',
         year: 2024,
         link: {
@@ -160,19 +166,57 @@ const workshops = [
         }
     },
     {
-        title: 'React - Desenvolvimento de Aplicações Web Modernas',
+        title: 'Explorando o Ecossistema Java: Aprofundando em Programação Funcional',
         speakers: [
             {
-                name: 'Wesley Bertipaglia',
-                image: './imgs/people/wesley-bertipaglia.webp'
+                name: 'João Augusto',
+                image: './imgs/people/joao-augusto.webp'
             }
         ],
-        time: '',
-        description: 'Neste minicurso prático, aprenda os conceitos básicos de React, como criar componentes, manipular estados e muito mais.',
+        date: '31/08',
+        time: '14:00 - 17:00',
+        local: 'IFSP',
+        description: 'Neste minicurso teórico e prático você vai explorar os principais conceitos sobre programação funcional, apresentada de uma visão para desenvolvimento primário ao lado da máquina virtual Java, com Clojure, um dialeto de Lisp com foco na produtividade de desenvolvimento e uma abordagem extremamente produtiva!',
         year: 2024,
         link: {
             title: 'Inscreva-se',
-            url: 'https://www.sympla.com.br/evento/workshop-desenvolvimento-de-aplicacoes-web-modernas/2571863'
+            url: 'https://www.sympla.com.br/workshop---explorando-o-ecossistema-java-aprofundando-em-programacao-funcional__2570856'
+        }
+    },
+    {
+        title: 'Introdução a Kotlin',
+        speakers: [
+            {
+                name: 'Taylson Martinez',
+                image: './imgs/people/taylson-martinez.webp'
+            }
+        ],
+        date: '31/08',
+        time: '14:00 - 17:00',
+        local: 'IFSP',
+        description: 'Neste mini curso, você aprenderá a desenvolver uma API Web usando Kotlin e Spring Boot, utilizando as com requisições GET, POST, PUT e DELETE, a utilização de DTOs para representar informações de input e output. Você também aprenderá a realizar validações utilizando Bean Validation, seguir corretamente os princípios do modelo REST e tratar exceções na API de forma eficaz. Vamos juntos desenvolver uma API robustas e bem estruturadas com Kotlin, aproveitando suas vantagens em comparação ao Java.',
+        year: 2024,
+        link: {
+            title: 'Inscreva-se',
+            url: 'https://www.sympla.com.br/workshop---kotlin-spring-boot---uma-alternativa-a-linguagem-java__2574687'
+        }
+    },
+    {
+        title: 'Indo além da era do Java EE com o Jakarta EE na prática',
+        speakers: [
+            {
+                name: 'Maximillian Arruda',
+                image: './imgs/people/maximillian-arruda.webp'
+            }
+        ],
+        date: '31/08',
+        time: '14:00 - 17:00',
+        local: 'IFSP',
+        description: 'Neste mini curso, você aprenderá a desenvolver uma API Web usando Kotlin e Spring Boot, utilizando as com requisições GET, POST, PUT e DELETE, a utilização de DTOs para representar informações de input e output. Você também aprenderá a realizar validações utilizando Bean Validation, seguir corretamente os princípios do modelo REST e tratar exceções na API de forma eficaz. Vamos juntos desenvolver uma API robustas e bem estruturadas com Kotlin, aproveitando suas vantagens em comparação ao Java.',
+        year: 2024,
+        link: {
+            title: 'Inscreva-se',
+            url: 'https://www.sympla.com.br/workshop---indo-alem-da-era-do-java-ee-com-o-jakarta-ee-na-pratica__2591407'
         }
     },
 ]

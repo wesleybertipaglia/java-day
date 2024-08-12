@@ -1,0 +1,49 @@
+---
+import AvatarGrid from "./AvatarGrid.astro";
+import Link from "./Link.astro";
+
+interface Props {
+    title: string;
+    description: string;
+    time: string;
+    date: string;
+    local: string;
+    speakers: { name: string; image: string }[];
+    link: { title: string; url: string };
+}
+
+const { title, description, time, date, local, speakers, link } = Astro.props;
+---
+
+<div
+    class="flex flex-wrap justify-between items-center gap-4 md:gap-6 py-4 border-b-[1px] border-secundary-light"
+>
+    <div class="w-full md:w-6/12">
+        <h3 class="text-base font-medium">{title}</h3>
+        <p class="text-sm text-gray-400">
+            {description}
+        </p>
+
+        {
+            link && (
+                <Link
+                    href={link.url}
+                    class:list="text-sm text-primary"
+                    target="_blank"
+                >
+                    {link.title}
+                </Link>
+            )
+        }
+    </div>
+
+    <div>{local}</div>
+
+    <div>{date}</div>
+
+    <div>{time}</div>
+
+    <div>
+        <AvatarGrid avatars={speakers} />
+    </div>
+</div>

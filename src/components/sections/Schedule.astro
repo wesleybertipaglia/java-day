@@ -1,6 +1,7 @@
 ---
 import Container from "../Container.astro";
 import ScheduleItem from "../ScheduleItem.astro";
+import ScheduleWorkshopItem from "../ScheduleWorkshopItem.astro";
 import { speeches, workshops } from "../../data/schedule";
 
 const parseTime = (time: string): Date => {
@@ -41,7 +42,7 @@ const sortedSpeeches = speeches
         </div>
 
         <div class="flex flex-col">
-            {workshops.map((item) => <ScheduleItem {...item} />)}
+            {workshops.map((item) => <ScheduleWorkshopItem {...item} />)}
         </div>
     </Container>
 </section>

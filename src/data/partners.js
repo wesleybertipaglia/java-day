@@ -1,5 +1,16 @@
 const sponsors = [
-
+    {
+        name: 'Field Control',
+        logo: './imgs/partners/field-control.webp',
+        url: 'https://fieldcontrol.com.br/',
+        invert: false
+    },
+    {
+        name: 'Shift',
+        logo: './imgs/partners/shift.webp',
+        url: 'https://shift.com.br/',
+        invert: true
+    }
 ]
 
 const support = [
@@ -35,7 +46,7 @@ const support = [
     },
     {
         name: 'GitHub',
-        logo: './imgs/partners/github.svg',
+        logo: './imgs/partners/github.webp',
         url: 'https://github.com/',
         invert: true
     }
