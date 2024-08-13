@@ -17,9 +17,9 @@ import Link from "../components/Link.astro";
 						class="h-12"
 					/>
 
-					<p class="text-xl font-bold">
-						<span class="text-primary">Java</span>
-						<span class="text-slate-100">Day</span>
+					<p class:list={"text-xl font-bold hover:no-underline"}>
+						<span class="text-primary">JAVA</span>
+						<span class="text-slate-100">DAY</span>
 					</p>
 				</Link>
 
@@ -35,7 +35,7 @@ import Link from "../components/Link.astro";
 
 			<div class="flex gap-6 items-center">
 				<button
-					class="bg-primary px-4 py-2 rounded font-medium text-white"
+					class="bg-primary px-4 py-2 rounded font-bold text-white"
 				>
 					<Link
 						href="https://www.sympla.com.br/evento/java-day-sao-jose-do-rio-preto-sp/2552461"
@@ -47,7 +47,22 @@ import Link from "../components/Link.astro";
 
 		<!-- mobile menu -->
 		<div class="flex md:hidden gap-6 items-center justify-between relative">
-			<Link href="/">Java Day</Link>
+			<Link
+				href="./"
+				class:list={"flex gap-4 items-center hover:no-underline"}
+			>
+				<img
+					src="./favicon.svg"
+					alt="Java Day"
+					title="Java Day"
+					class="h-12"
+				/>
+
+				<p class="text-xl font-bold">
+					<span class="text-primary">JAVA</span>
+					<span class="text-slate-100">DAY</span>
+				</p>
+			</Link>
 
 			<button
 				id="mobile-menu-button"
