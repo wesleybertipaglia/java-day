@@ -8,21 +8,27 @@ import Link from "../components/Link.astro";
 >
 	<Container class="container p-6">
 		<div class="hidden md:flex gap-6 justify-between">
-			<div class="flex gap-6 items-center justify-start">
-				<Link href="./">
+			<div class="flex gap-16 items-center justify-start">
+				<Link href="./" class:list={"flex gap-4 items-center"}>
 					<img
 						src="./favicon.svg"
 						alt="Java Day"
 						title="Java Day"
 						class="h-12"
 					/>
+
+					<p class="text-xl font-bold">
+						<span class="text-primary">Java</span>
+						<span class="text-slate-100">Day</span>
+					</p>
 				</Link>
 
 				<ul class="flex gap-4 items-center">
 					<li><Link href="#palestras">Palestras</Link></li>
 					<li><Link href="#workshops">Workshops</Link></li>
 					<li><Link href="#palestrantes">Palestrantes</Link></li>
-					<li><Link href="#parceiros">Parceiros</Link></li>
+					<li><Link href="#patrocinio">Patrocinio</Link></li>
+					<li><Link href="#apoio">Apoio</Link></li>
 					<li><Link href="#localizacao">Localização</Link></li>
 				</ul>
 			</div>
