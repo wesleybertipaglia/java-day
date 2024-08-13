@@ -63,7 +63,12 @@ const speakers = [
                 title: 'Site',
                 url: 'https://linktr.ee/maxdearruda',
                 icon: ''
-            }
+            },
+            {
+                title: 'GitHub',
+                url: 'https://github.com/dearrudam',
+                icon: ''
+            },
         ]
     },
     {
