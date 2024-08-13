@@ -1,0 +1,36 @@
+---
+import { sponsors } from "../../data/partners";
+import Link from "../Link.astro";
+
+const silver = sponsors.filter(
+    (sponsor) => sponsor.type.toLowerCase() === "silver",
+);
+---
+
+<div class="flex flex-col gap-4">
+    <h3>Prata</h3>
+
+    <div
+        class="grid grid-cols-2 md:grid-cols-4 gap-6 justify-center items-center border border-secundary-light"
+    >
+        {
+            silver.map(({ url, name, logo, invert }) => (
+                <Link href={url} target="_blank">
+                    <figure
+                        class="h-auto w-full aspect-video flex items-center justify-center p-6"
+                        title={name}
+                    >
+                        <img
+                            src={logo}
+                            alt={name}
+                            class="h-48 w-48 object-contain"
+                            class:list={
+                                invert ? "filter brightness-0 invert" : ""
+                            }
+                        />
+                    </figure>
+                </Link>
+            ))
+        }
+    </div>
+</div>

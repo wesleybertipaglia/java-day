@@ -3,13 +3,22 @@ const sponsors = [
         name: 'Field Control',
         logo: './imgs/partners/field-control.webp',
         url: 'https://fieldcontrol.com.br/',
-        invert: false
+        invert: false,
+        type: 'bronze'
     },
     {
         name: 'Shift',
         logo: './imgs/partners/shift.webp',
         url: 'https://shift.com.br/',
-        invert: true
+        invert: true,
+        type: 'silver'
+    },
+    {
+        name: 'Alura',
+        logo: './imgs/partners/alura.webp',
+        url: 'https://www.alura.com.br/',
+        invert: true,
+        type: 'gold'
     }
 ]
 

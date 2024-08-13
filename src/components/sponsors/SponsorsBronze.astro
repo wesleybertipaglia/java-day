@@ -1,0 +1,36 @@
+---
+import { sponsors } from "../../data/partners";
+import Link from "../Link.astro";
+
+const bronze = sponsors.filter(
+    (sponsor) => sponsor.type.toLowerCase() === "bronze",
+);
+---
+
+<div class="flex flex-col gap-4">
+    <h3>Bronze</h3>
+
+    <div
+        class="grid grid-cols-2 md:grid-cols-4 gap-6 justify-center items-center border border-secundary-light"
+    >
+        {
+            bronze.map(({ url, name, logo, invert }) => (
+                <Link href={url} target="_blank">
+                    <figure
+                        class="h-auto w-full aspect-video flex items-center justify-center p-6"
+                        title={name}
+                    >
+                        <img
+                            src={logo}
+                            alt={name}
+                            class="h-32 w-32 object-contain"
+                            class:list={
+                                invert ? "filter brightness-0 invert" : ""
+                            }
+                        />
+                    </figure>
+                </Link>
+            ))
+        }
+    </div>
+</div>

@@ -1,0 +1,43 @@
+---
+import { support } from "../../data/partners";
+import Container from "../Container.astro";
+import Link from "../Link.astro";
+---
+
+<section id="apoio">
+    <Container class="container flex flex-col gap-6 px-6 py-16">
+        <div class="flex flex-col">
+            <h2 class="text-2xl">Apoio</h2>
+            <p class="text-gray-500">
+                <span>Ajude-nos a disseminar conhecimento, </span>
+                <Link href="/#" class:list={"text-primary"}
+                    >seja um apoiador.</Link
+                >
+            </p>
+        </div>
+
+        <div
+            class="grid grid-cols-2 md:grid-cols-6 gap-6 justify-center items-center border border-secundary-light"
+        >
+            {
+                support.map(({ url, name, logo, invert }) => (
+                    <Link href={url} target="_blank">
+                        <figure
+                            class="h-auto w-full aspect-video flex items-center justify-center p-6"
+                            title={name}
+                        >
+                            <img
+                                src={logo}
+                                alt={name}
+                                class="h-24 w-24 object-contain"
+                                class:list={
+                                    invert ? "filter brightness-0 invert" : ""
+                                }
+                            />
+                        </figure>
+                    </Link>
+                ))
+            }
+        </div>
+    </Container>
+</section>

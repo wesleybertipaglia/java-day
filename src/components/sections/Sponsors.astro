@@ -1,0 +1,25 @@
+---
+import Container from "../Container.astro";
+import Link from "../Link.astro";
+import SponsorsGold from "../sponsors/SponsorsGold.astro";
+import SponsorsSilver from "../sponsors/SponsorsSilver.astro";
+import SponsorsBronze from "../sponsors/SponsorsBronze.astro";
+---
+
+<section id="patrocinio">
+    <Container class="container flex flex-col gap-6 px-6 py-16">
+        <div class="flex flex-col">
+            <h2 class="text-2xl">Patrocinio</h2>
+            <p class="text-gray-500">
+                <span>Ajude-nos a disseminar conhecimento, </span>
+                <Link href="/#" class:list={"text-primary"}
+                    >seja um patrocinador.</Link
+                >
+            </p>
+        </div>
+
+        <SponsorsGold />
+        <SponsorsSilver />
+        <SponsorsBronze />
+    </Container>
+</section>
