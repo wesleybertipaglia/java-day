@@ -32,7 +32,14 @@ const { image, name, job, description, links } = Astro.props;
 				<summary class="flex items-center cursor-pointer">
 					Ver bio
 				</summary>
-				<p class="text-gray-500">{description}</p>
+				<p class="text-gray-500">
+					{description.split("\n").map((line) => (
+						<span>
+							{line}
+							<br />
+						</span>
+					))}
+				</p>
 			</details>
 		)
 	}

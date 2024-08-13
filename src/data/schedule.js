@@ -194,10 +194,7 @@ const workshops = [
         date: '31/08',
         time: '14:00 - 17:00',
         local: 'IFSP',
-        description: `
-        Neste mini curso, você aprenderá a desenvolver uma API Web usando Kotlin e Spring Boot, utilizando as com requisições GET, POST, PUT e DELETE, a utilização de DTOs para representar informações de input e output.\n        
-        Você também aprenderá a realizar validações utilizando Bean Validation, seguir corretamente os princípios do modelo REST e tratar exceções na API de forma eficaz.\n
-        Vamos juntos desenvolver uma API robustas e bem estruturadas com Kotlin, aproveitando suas vantagens em comparação ao Java.`,
+        description: `Neste mini curso, você aprenderá a desenvolver uma API Web usando Kotlin e Spring Boot, utilizando as com requisições GET, POST, PUT e DELETE, a utilização de DTOs para representar informações de input e output. Você também aprenderá a realizar validações utilizando Bean Validation, seguir corretamente os princípios do modelo REST e tratar exceções na API de forma eficaz. Vamos juntos desenvolver uma API robustas e bem estruturadas com Kotlin, aproveitando suas vantagens em comparação ao Java.`,
         year: 2024,
         link: {
             title: 'Inscreva-se',
