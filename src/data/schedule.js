@@ -194,7 +194,10 @@ const workshops = [
         date: '31/08',
         time: '14:00 - 17:00',
         local: 'IFSP',
-        description: 'Neste mini curso, você aprenderá a desenvolver uma API Web usando Kotlin e Spring Boot, utilizando as com requisições GET, POST, PUT e DELETE, a utilização de DTOs para representar informações de input e output. Você também aprenderá a realizar validações utilizando Bean Validation, seguir corretamente os princípios do modelo REST e tratar exceções na API de forma eficaz. Vamos juntos desenvolver uma API robustas e bem estruturadas com Kotlin, aproveitando suas vantagens em comparação ao Java.',
+        description: `
+        Neste mini curso, você aprenderá a desenvolver uma API Web usando Kotlin e Spring Boot, utilizando as com requisições GET, POST, PUT e DELETE, a utilização de DTOs para representar informações de input e output.\n        
+        Você também aprenderá a realizar validações utilizando Bean Validation, seguir corretamente os princípios do modelo REST e tratar exceções na API de forma eficaz.\n
+        Vamos juntos desenvolver uma API robustas e bem estruturadas com Kotlin, aproveitando suas vantagens em comparação ao Java.`,
         year: 2024,
         link: {
             title: 'Inscreva-se',
@@ -212,7 +215,19 @@ const workshops = [
         date: '31/08',
         time: '14:00 - 17:00',
         local: 'IFSP',
-        description: 'Neste mini curso, você aprenderá a desenvolver uma API Web usando Kotlin e Spring Boot, utilizando as com requisições GET, POST, PUT e DELETE, a utilização de DTOs para representar informações de input e output. Você também aprenderá a realizar validações utilizando Bean Validation, seguir corretamente os princípios do modelo REST e tratar exceções na API de forma eficaz. Vamos juntos desenvolver uma API robustas e bem estruturadas com Kotlin, aproveitando suas vantagens em comparação ao Java.',
+        description: `
+            Mergulhe no universo do Jakarta EE e inicie o desenvolvimento de aplicações empresariais modernas em Java! Nesse workshop, vamos abordar as seguintes especificações de forma prática: \n
+            - Jakarta RESTful Web Services: criar APIs Rest de maneira fácil e prática;\n
+            - Jakarta JSON Processing e Jakarta Binding: manipilação e processamento JSON;\n
+            - Jakarta Contexts and Dependency Injection: injeção de dependências de maneira type-safe;\n
+            - Jakarta Validation: valide seus objetos java de uma forma internacionalizada e elegante;\n
+            - Jakarta Persistence: mapeie entidades para banco de dados relacionais;\n
+            - Jakarta NoSQL: mapeie entidades para banco de dados não relacionais;\n
+            - Jakarta Data: construa repositórios e persista suas entidades de maneira simples;\n
+            - Jakarta Faces: construa aplicaçoes web ricas componentizadas;\n
+            - Jakarta WebSocket: Implemente aplicações que fornece comunicação em tempo real;\n
+            - E outras…\n
+            Capacite-se e comece a desenvolver aplicações empresariais robustas e escaláveis com confiança com Jakarta EE.`,
         year: 2024,
         link: {
             title: 'Inscreva-se',

@@ -20,9 +20,37 @@ const { title, description, time, date, local, speakers, link } = Astro.props;
 >
     <div class="w-full md:w-6/12">
         <h3 class="text-base font-medium">{title}</h3>
-        <p class="text-sm text-gray-400">
-            {description}
-        </p>
+        {
+            description.length > 500 ? (
+                <p class="text-sm text-gray-400">
+                    {
+                        description.split("\n").slice(0, 3).map((line) => (
+                            <span>
+                                {line}
+                                <br />
+                            </span>
+                        ))
+                    }
+                </p>
+                <details class="text-blue-400 cursor-pointer">
+                    <summary>Ver descrição completa</summary>
+                    <p class="text-sm text-gray-400">
+                        {
+                        description.split("\n").slice(2, ).map((line) => (
+                            <span>
+                                {line}
+                                <br />
+                            </span>
+                        ))
+                    }
+                    </p>
+                </details>
+            ) : (
+                <p class="text-sm text-gray-400">
+                    {description}
+                </p>
+            )
+        }
 
         {
             link && (
@@ -46,4 +74,6 @@ const { title, description, time, date, local, speakers, link } = Astro.props;
     <div>
         <AvatarGrid avatars={speakers} />
     </div>
+
+    <script></script>
 </div>
