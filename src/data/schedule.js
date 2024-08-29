@@ -81,7 +81,7 @@ const speeches = [
         year: 2024
     },
     {
-        title: 'Aguardando Definição',
+        title: 'Desafios e Lições Aprendidas na Migração de Monólitos para Microserviços em Java',
         speakers: [
             {
                 name: 'Jessica Felix',
@@ -89,7 +89,8 @@ const speeches = [
             }
         ],
         time: '15:10',
-        description: ``,
+        description: `A migração de aplicações monolíticas para uma arquitetura de microserviços representa um dos maiores desafios enfrentados por equipes de desenvolvimento modernas. Nesta palestra, exploraremos as complexidades dessa transição, focando especificamente em aplicações Java. Discutiremos as melhores práticas para a decomposição de monólitos, a gestão de dependências e a refatoração de dados, além de abordar as armadilhas comuns que as equipes encontram durante o processo.
+        Utilizando exemplos práticos e estudos de caso, analisaremos como a adoção de microserviços pode melhorar a escalabilidade, a agilidade e a resiliência das aplicações. Também abordaremos a importância de uma estratégia de migração bem definida e as ferramentas que podem facilitar essa jornada.`,
         year: 2024
     },
     {
