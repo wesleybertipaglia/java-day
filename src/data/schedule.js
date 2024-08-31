@@ -94,6 +94,13 @@ const speeches = [
         year: 2024
     },
     {
+        title: 'Intervalo',
+        speakers: [],
+        time: '16:20',
+        description: '',
+        year: 2024
+    },
+    {
         title: 'Arquitetando uma Solução com IA Generativa Multi-Modal',
         speakers: [
             {
