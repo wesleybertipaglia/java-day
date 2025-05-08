@@ -1,5 +1,6 @@
 ---
 import Container from "../Container.astro";
+import about from "../../data/about";
 ---
 
 <section id="inicio" class="border-b-[1px] border-secundary-light">
@@ -9,15 +10,11 @@ import Container from "../Container.astro";
         <div class="flex flex-col gap-6 w-full">
             <div class="flex flex-col gap-4">
                 <h1 class="text-7xl font-bold">
-                    <span class="text-primary">6º JAVA</span>
-                    <span class="text-slate-100">DAY</span>
+                    <span class="text-primary">{about.title}</span>
+                    <span class="text-slate-100">{about.edition}</span>
                 </h1>
                 <p>
-                    Junte-se a nós para uma experiência emocionante e
-                    enriquecedora, onde você poderá se conectar com
-                    especialistas da indústria, expandir seus conhecimentos e
-                    explorar as últimas tendências e inovações em Java e suas
-                    tecnologias.
+                    {about.description}
                 </p>
             </div>
 
@@ -25,12 +22,11 @@ import Container from "../Container.astro";
                 <button
                     class="bg-primary px-4 py-2 rounded font-medium text-white"
                 >
-                    <a
-                        href="https://www.sympla.com.br/evento/java-day-sao-jose-do-rio-preto-sp/2552461"
-                        target="_blank">Garanta sua vaga ➜</a
+                    <a href={about.subscribe_cta_1.link} target="_blank"
+                        >{about.subscribe_cta_1.text} ➜</a
                     >
                 </button>
-                <p>31 de agosto de 2024.</p>
+                <p>{about.date}.</p>
             </div>
         </div>
 

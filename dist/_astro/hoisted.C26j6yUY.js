@@ -1,1 +1,0 @@
-const o=document.getElementById("mobile-menu"),t=document.querySelectorAll(".mobile-item"),l=document.getElementById("mobile-menu-button");l.addEventListener("click",n);for(let e=0;e<=t.length;e++)t[e].addEventListener("click",n);function n(){o.classList.toggle("hidden")}
