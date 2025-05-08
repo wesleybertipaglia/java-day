@@ -1,6 +1,7 @@
 ---
 import Container from "../components/Container.astro";
 import Link from "../components/Link.astro";
+import about from "../data/about";
 ---
 
 <header
@@ -24,9 +25,15 @@ import Link from "../components/Link.astro";
 				</Link>
 
 				<ul class="flex gap-4 items-center">
+					<!-- todo: waiting to the schedule to be confirmed
 					<li><Link href="#palestras">Palestras</Link></li>
-					<li><Link href="#workshops">Workshops</Link></li>
-					<li><Link href="#palestrantes">Palestrantes</Link></li>
+					 -->
+					<!-- todo: waiting to the schedule to be confirmed
+					 <li><Link href="#workshops">Workshops</Link></li> 
+					 -->
+					<!-- todo: waiting for the speakers to be confirmed
+					 <li><Link href="#palestrantes">Palestrantes</Link></li> 
+					 -->
 					<li><Link href="#patrocinio">Patrocinio</Link></li>
 					<li><Link href="#apoio">Apoio</Link></li>
 					<li><Link href="#localizacao">Localização</Link></li>
@@ -37,9 +44,8 @@ import Link from "../components/Link.astro";
 				<button
 					class="bg-primary px-4 py-2 rounded font-bold text-white"
 				>
-					<Link
-						href="https://www.sympla.com.br/evento/java-day-sao-jose-do-rio-preto-sp/2552461"
-						target="_blank">Inscreva-se</Link
+					<Link href={about.subscribe_cta_2.link} target="_blank"
+						>{about.subscribe_cta_2.text}</Link
 					>
 				</button>
 			</div>
@@ -78,21 +84,27 @@ import Link from "../components/Link.astro";
 				class="fixed top-[73px] left-0 bottom-0 hidden z-[2] right-0 bg-secundary"
 			>
 				<ul class="text-center text-4xl">
+					<!-- todo: waiting to the schedule to be confirmed
 					<li
 						class="mobile-item px-6 py-8 border-b-[1px] border-secundary-light"
 					>
 						<Link href="#palestras">Palestras</Link>
-					</li>
+					</li> 
+					-->
+					<!-- todo: waiting for the speakers to be confirmed 
 					<li
 						class="mobile-item px-6 py-8 border-b-[1px] border-secundary-light"
 					>
 						<Link href="#palestrantes">Palestrantes</Link>
-					</li>
+					</li> 
+					-->
+					<!-- todo: waiting to the schedule to be confirmed
 					<li
 						class="mobile-item px-6 py-8 border-b-[1px] border-secundary-light"
 					>
 						<Link href="#workshops">Workshops</Link>
-					</li>
+					</li> 
+					-->
 					<li
 						class="mobile-item px-6 py-8 border-b-[1px] border-secundary-light"
 					>
